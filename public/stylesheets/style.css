@@ -3,7 +3,11 @@
 
 body {
   background-color: #A5C0C9;
-  background-image: url("http://bestanimations.com/Animals/Birds/bird-animated-gif-26.gif");
+  background: url("https://i.imgur.com/oULf5Zj.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   font-family: 'Tangerine', serif;
   color: rgb(53, 56, 53);
   width: 80%;
@@ -11,6 +15,8 @@ body {
   padding-top: 4%;
   text-align: center;
 }
+
+
 
 .container {
   margin: 0 auto;
