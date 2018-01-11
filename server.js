@@ -1,6 +1,15 @@
 const express = require('express');
+const morgan = require('morgan');
+const body = require('body-parser');
 const app = express();
 const PORT = 8000;
+const knex = require('./db.js')
+
+app.use(morgan('combined'));
+app.set('view engine', 'ejs');
+app.use(express.static('public'));
+app.use(bodyParser.urlencoded({extended: false}));
+
 
 /*
   GET ALL BIRDS
