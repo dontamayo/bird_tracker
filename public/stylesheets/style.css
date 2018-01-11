@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+
+body {
+  background-color: #A5C0C9;
+  background-image: url("http://bestanimations.com/Animals/Birds/bird-animated-gif-26.gif");
+  font-family: 'Tangerine', serif;
+  color: rgb(53, 56, 53);
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.separator {
+  height: 30px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+}
+
+p {
+  font-family: 'Tangerine', serif;
+  font-size: 1.7em;
+  margin-botoom: 10px;
+}
+
+a {
+  color: rgb(38, 43, 71);
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 20px;
+  margin-top: 10px;
+  width: 200px;
+  border: 0px solid black;
+}
+
+button:hover {
+  background-color: #88DBA7;
+}
+
+input {
+  width: 200px;
+  border: 0px solid black;
+  height: 1.2em;
+  font-size: 1.2em;
+}
+textarea {
+  width: 200px;
+  height: 120px;
+  border: 0px solid black;
+  font-size: 1.2em;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>All Birds</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>I Believe I Can Fly</h1>
+
+  <% birds.forEach((bird) => { %>
+    <h2>Bird's Name is = <%= bird.title %></h2>
+    <h3 class="description">Description =
+      <%= bird.description %></h3>
+    <% }) %>
+
+      <a href="/birds/forms">New Bird</a>
+      
+</body>
+
+</html>
