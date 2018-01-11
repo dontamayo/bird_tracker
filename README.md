@@ -1,5 +1,6 @@
 # Intro Web Apps
 ## A Bird Tracker
+### node server.js or nodemon server.js
 
 
 Our goals for this review are to
