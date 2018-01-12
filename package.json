@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon",
+    "db:reset": "dropdb birds_play && createdb birds_play && npm run db:migrate",
+    "db:migrate": "knex migrate:latest",
+    "db:rollback": "knex migrate:rollback"
   },
   "keywords": [],
   "author": "",

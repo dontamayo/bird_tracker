@@ -63,7 +63,7 @@ app.get('/birds/:bird_id', (req, res) => {
 
    res.format({
   'application/json': () => res.json(foundTodo),
-  'text/html': () => res.render('birds/show', { bird: foundBird }),
+  'text/html': () => res.render('birds/forms', { bird: foundBird }),
   'default': () => res.sendStatus(406)
  })
 })
